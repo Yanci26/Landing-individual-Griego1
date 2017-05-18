@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+body {
+    background-color: #ffffff;
+    font-size: 16px;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+header {
+    background: #000000;
+    padding: 15px 0px 0px 0px;
+    width: 100%;
+    border-bottom: 10px solid #7a0a0a;
+}
+
+header img {
+    margin-bottom: 10px;
+    
+}
+
+#seccion1 {
+    background: url(../images/libro.jpg) no-repeat #282828 center bottom;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+#parte1 h1 {
+    color: white;
+    font-family: "Cinzel", serif;
+    font-size: 68px;
+    font-weight: 100;
+    margin: 0 auto;
+}
+
+#parte1 h2 {
+    color: white;
+    font-family: "Muli", serif;
+    font-size: 25px;
+    text-align: right;
+    font-weight: 100;
+    margin: -20px 0 15px;
+    padding-right: 5%;
+}
+
+#parte1 {
+    background: rgba(255, 255, 255, .3);
+    margin-top: 124px;
+    margin-left: 5%;
+    width: 90%;
+    max-width: 340px;
+    height: 7em;
+}
+
+#seccion1 button {
+    border-color: #7a0a0a;
+    border-radius: 15px;
+    background: #7a0a0a;
+    background: rgba(122, 10, 10, .6);
+    color: white;
+    height: 50px;
+    width: 220px;
+    font-family: "muli", serif;
+    font-size: 18px;
+    margin-top: 120px;
+}
+
+#descripción {
+    background: #f9b24f;
+    height: 250px;
+}
+
+h3 {
+    font-family: "muli", serif;
+    font-size: 25px;
+    text-align: left;
+    font-weight: 800;
+}
+
+#descripción p {
+    font-family: "muli", serif;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 100;
+    text-align: justify;
+}
+
+#cuadro {
+    background: rgba(255, 255, 255, .2);
+    height: 250px;
+    width: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#beneficios h3,
+#beneficios img {
+    margin-left: 25px;
+}
+
+#beneficios p {
+    font-family: "muli", serif;
+    font-size: 16px;
+    text-align: left;
+    padding: .3em;
+    font-weight: 100;
+}
+
+#testimonios {
+    background: #f9b24f;
+    padding-top: 25px; 
+}
+
+#testimonio {
+    font-family: "muli", serif;
+    margin-left: .5em;
+    margin-right: .5em;
+    font-style: italic;
+}
+
+#nombre {
+    font-family: "muli", italic;
+}
+
+#testimonios img {
+    margin-left: 35px
+}
+
+#formulario h3 {
+    font-family: "cinzel", serif;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 100;
+}
+
+#forma {
+    padding-bottom: 40px;
+    margin-right: 5em;
+}
+
+#forma input {
+    text-align: center;
+    font-size: 18px;
+    width: 250px;
+    margin-right: 10px;
+    
+}
+
+#forma button {
+    border-color: #7a0a0a;
+    background-color: #ffffff;
+    height: 50px;
+    width: 210px;
+    font-family: "muli", serif;
+    font-size: 18px;
+    font-weight: 900;
+    color: #7a0a0a;
+    margin-left: 1.5em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    border-radius: 15px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-family: "muli", serif;
+}
+
+footer {
+    background: #000000;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+footer button {
+    background: black;
+    color: white;
+    height: 50px;
+    width: 220px;
+    font-family: "muli", serif;
+    margin-top: 53px;
+    border-style: double;
+    border-width: 5px;
+    font-family: "muli", serif;
+    font-size: 18px;
+    margin-left: 3.5em;
+}
+footer img{
+    position:relative;
+    margin: -2em;
+    margin-left: .3em;
+}
+
+/* versión tablet */
+
+@media (min-width: 768px) {
+
+header img {
+    margin-bottom: 10px;
+    width: 20em;
+    margin-left: 1.5em;
+}
+
+#parte1 {
+    margin-left: 14em;
+}
+
+#seccion1 button {
+   margin-left: 2em; 
+}
+#descripción{
+        height:300px 
+    }
+#cuadro {
+    height: 300px;
+}
+
+#descripción p, #descripción h3{
+        margin: 10px 70px 0px 70px;
+    }
+#descripción h3{
+        margin-top:70px; 
+        margin-bottom: 30px;
+    }
+    
+#beneficios h3{
+    margin-left: 95px;
+    margin-top: 80px
+    
+}
+    
+#beneficios img{
+    margin-top: 1em;
+    max-width: 5em;
+    margin-left: 80px;
+    margin-bottom: 20px
+    }
+
+#beneficios p {
+    font-family: "muli", serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+#testimonios {
+    background: #f9b24f;
+    height: 418px;
+}
+
+#testimonio {
+    font-family: "muli", serif;
+    text-align: justify;
+    font-size: 24px;
+    line-height: 1.5em;
+}
+
+#nombre {
+    font-family: "muli", italic;
+}
+
+#testimonios img {
+    margin-left: 100px;
+    
+}
+    #testimonio, #nombre, #testimonio img{
+    margin: 10px 90px 0px 100px; 
+    }
+
+#formulario h3 {
+    font-family: "cinzel", serif;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 100;
+    padding: 1em;
+}
+
+#forma {
+    padding-bottom: 40px;
+    margin-left: 6em;
+}
+
+#forma input {
+    text-align: center;
+    font-size: 18px;
+    width: 250px;
+    line-height: 2em;
+}
+
+#forma button {
+    margin-top: 40px;
+    border-color: #7a0a0a;
+    background-color: #ffffff;
+    height: 50px;
+    width: 210px;
+    font-family: "muli", serif;
+    font-size: 18px;
+    font-weight: 900;
+    color: #7a0a0a;
+    border-radius: 15px;
+    margin-right: 2em;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-family: "muli", serif;
+    padding-bottom: 1em;
+}
+
+footer {
+    background: #000000;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    height: 265px;
+}
+
+footer button {
+    background: black;
+    color: white;
+    height: 50px;
+    width: 220px;
+    font-family: "muli", serif;
+    font-size: 18px;
+    margin-top: 5em;
+    border-style: double;
+    border-width: 5px;
+    font-family: "muli", serif;
+    font-size: 18px;
+    margin-left: 14em;
+}
+    
+footer img{
+    position:relative;
+    margin: -3em;
+    margin-left: .3em;
+    height: 150px
+
+     
+}
+
+    /* versión desktop */
+
+@media screen and (min-width:1024px) {
+    header img {
+    margin-bottom: 10px;
+    width: 20em;
+    margin-left: 1.5em;
+}
+ #parte1 h1 {
+    color: white;
+    font-family: "Cinzel", serif;
+    font-size: 75px;
+    font-weight: 100;
+    margin: 0 auto;
+}
+
+#parte1 {
+    margin-left: 29em;
+}
+    
+#beneficios h3{
+    text-align: center;
+    font-size: 40px;
+    
+}
+    
+#beneficios img{
+    margin-top: 1em;
+    max-width: 8em;
+    margin-left: 200px;
+    margin-right: 0px;
+    margin-bottom: 20px
+    }
+
+#beneficios p {
+    font-family: "muli", serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+#testimonios {
+    background: #f9b24f;
+    height: 418px;
+}
+
+#testimonio {
+    font-family: "muli", serif;
+    text-align: justify;
+    font-size: 22px;
+    line-height: 1.5em;
+}
+
+#nombre {
+    font-family: "muli", italic;
+}
+
+#testimonios img {
+    margin-left: 100px;
+    max-width: 150px;
+    margin-top: 15px;
+    
+}
+    #testimonio, #nombre, #testimonio img{
+    margin: 0px 90px 0px 100px; 
+    }
+
+#formulario h3 {
+    font-family: "cinzel", serif;
+    font-size: 35px;
+    font-weight: 100;
+    padding: 1em;
+}
+
+#forma {
+    padding-bottom: 40px;
+    margin-left: 1em;
+}
+
+#forma input {
+    text-align: center;
+    font-size: 18px;
+    width: 250px;
+    line-height: 2em;
+}
+
+#forma button {
+    margin-top: 40px;
+    border-color: #7a0a0a;
+    background-color: #ffffff;
+    height: 50px;
+    width: 240px;
+    font-family: "muli", serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #7a0a0a;
+    border-radius: 15px;
+    margin-right: 3em;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-family: "muli", serif;
+    padding-bottom: 1em;
+}
+
+footer {
+    background: #000000;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    height: 250px;
+}
+
+footer button {
+    background: black;
+    color: white;
+    height: 50px;
+    width: 220px;
+    font-family: "muli", serif;
+    font-size: 18px;
+    margin-top: 5em;
+    border-style: double;
+    border-width: 5px;
+    font-family: "muli", serif;
+    font-size: 18px;
+    margin-left: 28em;
+}
+    
+footer img{
+    position:relative;
+    margin: -4em;
+    margin-left: .3em;
+    height: 150px
+
+     
+}
+
+    }
